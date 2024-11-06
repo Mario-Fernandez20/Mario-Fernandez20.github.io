@@ -1,0 +1,42 @@
+h1{
+text-align: center;
+background-color: red ;
+color: white;
+font-family: "Italianno", cursive;
+font-size:70px;
+margin-top: -10px;
+margin-bottom: 0px;
+
+;
+
+}
+body{
+background-image:url("bandera.jpg");
+}
+
+img{
+    border: 1px solid black;
+
+}
+li{  
+display: block;
+display: inline;
+margin-left: 85px;
+border : 1px solid black;
+padding-left: 30px;
+padding-right: 30px;
+color: white;
+background-color: rgb(5, 168, 5);
+font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+nav{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+div{
+    border : 1px solid black; 
+}
