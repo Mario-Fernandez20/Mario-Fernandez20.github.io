@@ -22,13 +22,14 @@ header {
 
 
 body {
+    background-color: rgb(231, 245, 226);
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
 }
 
-a {
+a.navegacion {
     text-decoration: none;
     text-align: center;
     display: block;
@@ -44,15 +45,17 @@ a {
 }
 
 p {
-    text-align: center;
+    font-weight: bold;
+    padding-left: 1%;
+        font-size: 20px;
 }
 
 nav {
-    margin-left: 15%;
+    margin-left: 10%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-a:hover{
+a.navegacion:hover{
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: white;
@@ -61,30 +64,56 @@ a:hover{
     font-size: 40px;
     font-weight: bold;
 }
+a.direccion{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 14%;
+    text-decoration: none;
+}
+a.direccion:hover{
+    font-size: 25px;
+    color: black;
+}
 
 img {
-    border: 1px solid black;
-    width: 4%;
-    height: 5%;
+margin-left: 45%;
 
-}
-div.video{
-    background-color: black;
 }
 h2{
-    font-size: 500%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-color: black;
-    color: white;
-    text-align: center;
+    font-size: 50px;
+    border-bottom:2px solid red;
+    width: 100%;
 }
 footer{
-     margin-top: -1%;
-    margin-bottom: -1%;
-    background-color: black;
-    color: white;
-    text-align: center;
-   
+   margin-bottom: -2%;
+   background-color: black;
+   color: white;
+   text-align: center;
+  
 }
-
+h3{
+    font-size: 50px;
+    border-bottom:2px solid red;
+    width: 100%;
+}
+img.logo{
+    width: 20%;
+    height: 50vh;
+}
+a.flecha{
+    padding-left:3% ;
+    text-decoration: none;
+}
+a.flecha:hover{
+font-size: 30px;
+}
+li{
+    display: inline;
+    overflow: hidden;
+}
+h4{
+       font-size: 50px;
+    border-bottom:2px solid red;
+    width: 100%;  
+}

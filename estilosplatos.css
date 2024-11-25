@@ -1,0 +1,160 @@
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: "Italianno", cursive;
+    font-size: 100px;
+    margin-bottom: -1px;
+    padding-bottom: -2%;
+    font-variant: small-caps ;
+}
+
+header {
+    border-top: 10px solid green;
+    border-bottom:10px solid red;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    background-image: url("italia.png");
+    height: 30vh
+}
+
+
+
+
+body {
+    background-color: rgb(231, 245, 226);
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a.navegacion {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    display: inline;
+    margin-left: 150px;
+    border: 1px solid black;
+    margin-top: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: rgb(5, 168, 5);
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    margin-left: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a.navegacion:hover{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    color:red;
+    font-family: "Italianno";
+    font-size: 40px;
+    font-weight: bold;
+}
+a.direccion{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+    text-decoration: none;
+}
+a.direccion:hover{
+    font-size: 25px;
+    color: black;
+}
+
+img {
+margin-left: 45%;
+
+}
+h2{
+    font-size: 45px;
+    border-bottom:2px solid red;
+    width: 100%;
+}
+footer{
+   margin-bottom: -2%;
+   background-color: black;
+   color: white;
+   text-align: center;
+  
+}
+h3{
+    font-size: 50px;
+    border-bottom:2px solid red;
+    width: 100%;
+}
+img.logo{
+    padding-right: 30%;
+    width: 20%;
+    height: 50vh;
+}
+a.flecha{
+    padding-left:3% ;
+    text-decoration: none;
+}
+a.flecha:hover{
+font-size: 30px;
+}
+li{
+    display: inline;
+    overflow: hidden;
+}
+h4{
+       font-size: 35px;
+    border-bottom:2px solid red;
+    width: 100%;  
+}
+img.gesto{
+    width: 15%;
+    margin-left: 43%;
+}
+img.platosfoto{
+    margin-left:35%;
+    width: 30%;
+}
+img.pizza{
+    margin-left: 41%;
+}
+img.espaguetis{
+    width: 25%;
+    margin-left: 38%;
+}
+h5{
+    font-size: 35px;
+    border-bottom:2px solid red;
+    width: 100%; 
+}
+p.pes{
+    font-variant: small-caps ;
+    font-size: 30px;
+}
+img.postres{
+    width: 25%;
+    margin-left: 38%;
+}
+a.direccioon{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 14%;
+    text-decoration: none;
+}
+a.direccion:hover{
+    font-size: 25px;
+    color: black;
+}
