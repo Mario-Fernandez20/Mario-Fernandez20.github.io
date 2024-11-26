@@ -86,3 +86,10 @@ a.direccion:hover{
     font-size: 25px;
     color: black;
 }
+footer{
+    margin-bottom: -2%;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+ }
