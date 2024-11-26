@@ -37,7 +37,7 @@ a.navegacion {
     display: inline;
     margin-left: 150px;
     border: 1px solid black;
-    margin-top: 20%;
+    margin-top: 1%;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -52,17 +52,14 @@ p {
 }
 
 nav {
-    margin-left: 15%;
-    padding-top: 10px;
+    margin-left: 5%;
     padding-bottom: 10px;
 }
 a.navegacion:hover{
-    padding-top: 2%;
-    padding-bottom: 2%;
     background-color: white;
     color:red;
     font-family: "Italianno";
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 h2.enlaces{
