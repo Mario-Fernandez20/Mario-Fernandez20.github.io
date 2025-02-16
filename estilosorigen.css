@@ -1,3 +1,44 @@
+@media screen and (max-width: 480px) {
+
+    nav {
+        margin-left: 0;
+        padding-top: 5px;
+    }
+
+    .menu{
+        text-decoration: none;
+        text-align: center;
+        display: inline;
+        margin-left: 1px;
+        margin-right: 1px;
+        border: 1px solid black;
+        padding-left: 5px;
+        padding-right: 5px;
+        color: white;
+        background-color: rgb(5, 168, 5);
+        font-weight: bold;
+    }
+
+    .logo{
+        width: 40%;
+    }
+    .f1{
+        width: 40%;
+    }
+    .f2{
+        width: 40%;
+    }
+    .m{
+        margin-bottom: -4%;
+        background-color: black;    
+        color: white;
+        text-align: center;
+       
+     }
+
+
+}
+
 h1 {
     text-align: center;
     color: black;
@@ -29,14 +70,14 @@ body {
     margin-right: 0;
 }
 
-a.navegacion {
+a{
     text-decoration: none;
     text-align: center;
     display: block;
     display: inline;
     margin-left: 150px;
     border: 1px solid black;
-    margin-top:1%;
+    margin-top: 20%;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -47,18 +88,21 @@ a.navegacion {
 p {
     font-weight: bold;
     padding-left: 1%;
-        font-size: 20px;
+    font-size: 18px;
 }
 
 nav {
-    margin-left: 5%;
+    margin-left: 10%;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
-a.navegacion:hover{
+a.menu:hover{
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: white;
     color:red;
     font-family: "Italianno";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 a.direccion{
@@ -74,7 +118,7 @@ a.direccion:hover{
 }
 
 img {
-margin-left: 45%;
+margin-left: 40%;
 
 }
 h2{
@@ -94,11 +138,13 @@ h3{
     border-bottom:2px solid red;
     width: 100%;
 }
-img.logo{
+img{
     width: 20%;
-    height: 50vh;
+    height: 30vh;
 }
 a.flecha{
+border: 0px;
+    background-color: rgb(231, 245, 226);
     padding-left:3% ;
     text-decoration: none;
 }

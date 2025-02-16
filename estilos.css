@@ -1,3 +1,27 @@
+
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        margin-left: 0;
+        padding-top: 5px;
+    }
+
+    .menu{
+        text-decoration: none;
+        text-align: center;
+        display: inline;
+        margin-left: 1px;
+        border: 1px solid black;
+        padding-left: 19px;
+        padding-right: 18px;
+        color: white;
+        background-color: rgb(5, 168, 5);
+        font-weight: bold;
+    }
+
+}
+
 h1 {
     text-align: center;
     color: black;
@@ -26,16 +50,16 @@ body {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+    background-color: black;
 }
 
 a {
     text-decoration: none;
     text-align: center;
-    display: block;
     display: inline;
-    margin-left: 150px;
+    margin-left: 290px;
     border: 1px solid black;
-    margin-top: 1%;
+    margin-top: 20%;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -48,14 +72,15 @@ p {
 }
 
 nav {
-    margin-left: 5%;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 a:hover{
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: white;
     color:red;
     font-family: "Italianno";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -77,8 +102,8 @@ h2{
     text-align: center;
 }
 footer{
-     margin-top: -2%;
-    margin-bottom: -2%;
+     margin-top: -1%;
+    margin-bottom: -1%;
     background-color: black;
     color: white;
     text-align: center;

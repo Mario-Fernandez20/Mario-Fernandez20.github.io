@@ -1,9 +1,31 @@
+@media screen and (max-width: 480px) {
+
+    nav {
+        margin-left: 0;
+        padding-top: 5px;
+    }
+
+    .menu{
+        text-decoration: none;
+        text-align: center;
+        display: inline;
+        margin-left:-3px;
+        margin-right: 5px;
+        border: 1px solid black;
+        padding-left: 8px;
+        padding-right: 5px;
+        color: white;
+        background-color: rgb(5, 168, 5);
+        font-weight: bold;
+    }
+
+}
 h1 {
     text-align: center;
     color: black;
     font-weight: bold;
     font-family: "Italianno", cursive;
-    font-size: 100px;
+    font-size: 98px;
     margin-bottom: -1px;
     padding-bottom: -2%;
     font-variant: small-caps ;
@@ -30,14 +52,14 @@ body {
     margin-right: 0;
 }
 
-a.navegacion {
+a{
     text-decoration: none;
     text-align: center;
     display: block;
     display: inline;
     margin-left: 150px;
     border: 1px solid black;
-    margin-top: 1%;
+    margin-top: 20%;
     padding-left: 30px;
     padding-right: 30px;
     color: white;
@@ -46,20 +68,23 @@ a.navegacion {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
 
 nav {
-    margin-left: 5%;
+    margin-left: 15%;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
-a.navegacion:hover{
+a.menu:hover{
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: white;
     color:red;
     font-family: "Italianno";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 a.direccion{
@@ -78,7 +103,7 @@ img.monu{
     margin-left: 38%;
 }
 h2{
-    font-size: 50px;
+    font-size: 40px;
     border-bottom:2px solid red;
     width: 100%;
 }
@@ -90,7 +115,7 @@ footer{
   
 }
 h3{
-    font-size: 50px;
+    font-size: 35px;
     border-bottom:2px solid red;
     width: 100%;
 }
@@ -99,6 +124,8 @@ img.logo{
     height: 50vh;
 }
 a.flecha{
+    border: 0px ;
+    background-color: rgb(231, 245, 226); ;
     padding-left:3% ;
     text-decoration: none;
 }
@@ -110,12 +137,13 @@ li{
     overflow: hidden;
 }
 h4{
-       font-size: 50px;
+       font-size: 40px;
     border-bottom:2px solid red;
     width: 100%;  
 }
 h5{
-    font-size: 50px;
+    font-size: 40px;
  border-bottom:2px solid red;
  width: 100%;  
 }
+
