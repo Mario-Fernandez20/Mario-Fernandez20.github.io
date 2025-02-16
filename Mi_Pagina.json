@@ -1,0 +1,42 @@
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://mario-fernandez20.github.io"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Monumentos",
+        "item": "https://mario-fernandez20.github.io/monumentos.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "El Coliseo, Roma",
+        "item": "https://mario-fernandez20.github.io/monumentos.html#coliseo"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "La Fontana de Trevi, Roma",
+        "item": "https://mario-fernandez20.github.io/monumentos.html#trevi"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "La Torre Inclinada, Pisa",
+        "item": "https://mario-fernandez20.github.io/monumentos.html#torre"
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "name": "El Duomo, Milán",
+        "item": "https://mario-fernandez20.github.io/monumentos.html#duomo"
+      }
+    ]
+  }
