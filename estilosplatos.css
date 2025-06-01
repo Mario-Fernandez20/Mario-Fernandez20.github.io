@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(231, 245, 226);
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    border-top: 10px solid green;
+    border-bottom: 10px solid red;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    background-image: url("Italia.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    font-size: 80px;
+    font-variant:small-caps;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    margin-top: 10px;
+}
+p.entradilla {
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 0 1rem;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration: underline  red ;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    padding: 15px 0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bloque {
+    background-color: #fdfdfd;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px red;
+}
+nav a:hover {
+    background-color: white;
+    color: red;
+    font-family: "Italianno";
+    font-size: 30px;
+    font-variant:small-caps
+}
+
+
+h2, h3 {
+    border-bottom: 2px solid red;
+    width: 100%;
+    margin-top: 40px;
+}
+
+h2 { 
+    font-size: 2.5em;
+ }
+
+h3 {
+     font-size: 2em;
+    
+    }
+
+p.pes {
+    font-variant: small-caps;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+a.flecha {
+    border: none;
+    background-color: rgb(231, 245, 226);
+    padding-left: 3%;
+    text-decoration: none;
+    font-size: 24px;
+    transition:  0.3s ease;
+}
+
+a.flecha:hover {
+    font-size: 2.5em;
+}
+li {
+    display: inline;
+}
+
+@media screen and (max-width: 480px) {
+    h1.titulo {
+       font-size: 2.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        flex: 1 1 100%;
+    }
+
+    p.pes {
+        font-size: 1.2em;
+    }
+
+    h2, h3, h4, h5 {
+        font-size: 1.5em;
+    }
+}
