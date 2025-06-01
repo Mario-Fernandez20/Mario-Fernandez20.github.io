@@ -21,14 +21,12 @@ header {
 
 h1 {
     text-align: center;
+    color: black;
     font-weight: bold;
     font-family: 'Georgia', serif;
     font-size: 80px;
+    font-variant:small-caps;
     margin: 0;
-    font-variant: small-caps;
-    color: black;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-
 }
 
 
